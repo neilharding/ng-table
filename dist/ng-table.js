@@ -1447,7 +1447,7 @@
                         'ng-table-pagination': 'params',
                         'template-url': 'templates.pagination'
                     });
-                    $element.before(paginationTemplate);
+                    $element.after(paginationTemplate);
                     if (headerTemplate) {
                         $compile(headerTemplate)($scope);
                     }
